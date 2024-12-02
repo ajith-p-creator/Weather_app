@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <main>
+        <form action="">
+            <input type="text" id="ValueSearch">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <section class="result">
+            <div class="name" id="City">
+                <h1 id="Name">Landon</h1>
+                <img id="img" src="https://flagsapi.com/GB/shiny/32.png" alt="">
+            </div>
+            <div class="temperature" id="temperature">
+                <img  id="img2" src="http://openweathermap.org/img/wn/10d@4x.png" alt="">
+                <div class="caption">
+                    <span id="tem">31</span>
+                    <sup>0</sup>
+                </div>
+            </div>
+            <p class="description" id="description">
+                Overcast clouds
+            </p>
+            <ul>
+                <li>
+                    <span>Clouds</span>
+                    <span id="clouds">98</span>
+                    <i class="fa-solid fa-cloud"></i>
+                </li>
+                <li class="l1">
+                    <span>Humidity</span>
+                    <span id="Humidity">55</span>
+                    <i class="fa-solid fa-droplet"></i>
+                </li>
+                <li class="l2">
+                    <span>Pressure</span>
+                    <span id="Pressure">1001</span>hpa
+                    <i class="fa-solid fa-gauge"></i>
+                </li>
+            </ul>
+
+        </section>
+    </main>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
